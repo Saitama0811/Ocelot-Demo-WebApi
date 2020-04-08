@@ -1,27 +1,46 @@
 {
     "ReRoutes": [
-        {
-            "DownstreamPathTemplate": "/api/{catchAll}",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "localhost",
-                    "Port": 7001
-                }
-            ],
-            "UpstreamPathTemplate": "/catalog-api/{catchAll}"
-        },
-        {
-            "DownstreamPathTemplate": "/api/{catchAll}",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "localhost",
-                    "Port": 7002
-                }
-            ],
-            "UpstreamPathTemplate": "/orders-api/{catchAll}"
+      {
+        "DownstreamPathTemplate": "/api/{catchAll}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 7001
+          }
+        ],
+        "UpstreamPathTemplate": "/catalog-api/{catchAll}",
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "TestKey",
+          "AllowedScopes": []
         }
+      },
+      {
+        "DownstreamPathTemplate": "/api/{catchAll}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 7002
+          }
+        ],
+        "UpstreamPathTemplate": "/orders-api/{catchAll}",
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "TestKey",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/api/{catchAll}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 7003
+          }
+        ],
+        "UpstreamPathTemplate": "/auth-api/{catchAll}"
+      }
     ],
     "GlobalConfiguration": {
         "BaseUrl": "https://localhost:7000"

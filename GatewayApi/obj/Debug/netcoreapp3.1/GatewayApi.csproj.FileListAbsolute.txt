@@ -18,8 +18,6 @@ E:\Projects\OcelotDemo\GatewayApi\bin\Debug\netcoreapp3.1\Ocelot.dll
 E:\Projects\OcelotDemo\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.csprojAssemblyReference.cache
 E:\Projects\OcelotDemo\GatewayApi\obj\Debug\netcoreapp3.1\staticwebassets\GatewayApi.StaticWebAssets.Manifest.cache
 E:\Projects\OcelotDemo\GatewayApi\obj\Debug\netcoreapp3.1\staticwebassets\GatewayApi.StaticWebAssets.xml
-E:\Projects\OcelotDemo\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.MvcApplicationPartsAssemblyInfo.cs
-E:\Projects\OcelotDemo\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.MvcApplicationPartsAssemblyInfo.cache
 E:\Projects\OcelotDemo\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.AssemblyInfoInputs.cache
 E:\Projects\OcelotDemo\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.AssemblyInfo.cs
 E:\Projects\OcelotDemo\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.RazorTargetAssemblyInfo.cache
@@ -27,3 +25,12 @@ E:\Projects\OcelotDemo\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.csproj.Copy
 E:\Projects\OcelotDemo\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.dll
 E:\Projects\OcelotDemo\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.pdb
 E:\Projects\OcelotDemo\GatewayApi\bin\Debug\netcoreapp3.1\ocelot.json
+E:\Projects\OcelotDemo\GatewayApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Projects\OcelotDemo\GatewayApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Projects\OcelotDemo\GatewayApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\Projects\OcelotDemo\GatewayApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\Projects\OcelotDemo\GatewayApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Projects\OcelotDemo\GatewayApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\Projects\OcelotDemo\GatewayApi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\Projects\OcelotDemo\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.MvcApplicationPartsAssemblyInfo.cs
+E:\Projects\OcelotDemo\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.MvcApplicationPartsAssemblyInfo.cache
