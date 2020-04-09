@@ -7,4 +7,4 @@ API Gateway Implementation On ASP.NET Core using Ocelot
   2.  JWT Authentication
   3.  Rate Limiting
   4.  Load Balancing (Very Basic)
-  5.  Logging (On the way!!)
+  5.  Logging (using Nlog on Gateway)
