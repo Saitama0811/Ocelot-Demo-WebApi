@@ -3543,11 +3543,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\OcelotDemo\\OrdersApi\\OrdersApi.csproj",
+      "projectUniqueName": "E:\\Projects\\Ocelot-Demo-WebApi\\OrdersApi\\OrdersApi.csproj",
       "projectName": "OrdersApi",
-      "projectPath": "E:\\Projects\\OcelotDemo\\OrdersApi\\OrdersApi.csproj",
+      "projectPath": "E:\\Projects\\Ocelot-Demo-WebApi\\OrdersApi\\OrdersApi.csproj",
       "packagesPath": "C:\\Users\\Saurabh Goel\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\OcelotDemo\\OrdersApi\\obj\\",
+      "outputPath": "E:\\Projects\\Ocelot-Demo-WebApi\\OrdersApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

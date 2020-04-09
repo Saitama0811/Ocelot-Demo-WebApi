@@ -802,11 +802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\OcelotDemo\\GatewayApi\\GatewayApi.csproj",
+      "projectUniqueName": "E:\\Projects\\Ocelot-Demo-WebApi\\GatewayApi\\GatewayApi.csproj",
       "projectName": "GatewayApi",
-      "projectPath": "E:\\Projects\\OcelotDemo\\GatewayApi\\GatewayApi.csproj",
+      "projectPath": "E:\\Projects\\Ocelot-Demo-WebApi\\GatewayApi\\GatewayApi.csproj",
       "packagesPath": "C:\\Users\\Saurabh Goel\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\OcelotDemo\\GatewayApi\\obj\\",
+      "outputPath": "E:\\Projects\\Ocelot-Demo-WebApi\\GatewayApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

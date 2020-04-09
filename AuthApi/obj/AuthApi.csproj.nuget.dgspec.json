@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\OcelotDemo\\AuthApi\\AuthApi.csproj": {}
+    "E:\\Projects\\Ocelot-Demo-WebApi\\AuthApi\\AuthApi.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\OcelotDemo\\AuthApi\\AuthApi.csproj": {
+    "E:\\Projects\\Ocelot-Demo-WebApi\\AuthApi\\AuthApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\OcelotDemo\\AuthApi\\AuthApi.csproj",
+        "projectUniqueName": "E:\\Projects\\Ocelot-Demo-WebApi\\AuthApi\\AuthApi.csproj",
         "projectName": "AuthApi",
-        "projectPath": "E:\\Projects\\OcelotDemo\\AuthApi\\AuthApi.csproj",
+        "projectPath": "E:\\Projects\\Ocelot-Demo-WebApi\\AuthApi\\AuthApi.csproj",
         "packagesPath": "C:\\Users\\Saurabh Goel\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\OcelotDemo\\AuthApi\\obj\\",
+        "outputPath": "E:\\Projects\\Ocelot-Demo-WebApi\\AuthApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

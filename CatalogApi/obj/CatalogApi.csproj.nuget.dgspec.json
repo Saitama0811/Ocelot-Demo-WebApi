@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\OcelotDemo\\CatalogApi\\CatalogApi.csproj": {}
+    "E:\\Projects\\Ocelot-Demo-WebApi\\CatalogApi\\CatalogApi.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\OcelotDemo\\CatalogApi\\CatalogApi.csproj": {
+    "E:\\Projects\\Ocelot-Demo-WebApi\\CatalogApi\\CatalogApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\OcelotDemo\\CatalogApi\\CatalogApi.csproj",
+        "projectUniqueName": "E:\\Projects\\Ocelot-Demo-WebApi\\CatalogApi\\CatalogApi.csproj",
         "projectName": "CatalogApi",
-        "projectPath": "E:\\Projects\\OcelotDemo\\CatalogApi\\CatalogApi.csproj",
+        "projectPath": "E:\\Projects\\Ocelot-Demo-WebApi\\CatalogApi\\CatalogApi.csproj",
         "packagesPath": "C:\\Users\\Saurabh Goel\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\OcelotDemo\\CatalogApi\\obj\\",
+        "outputPath": "E:\\Projects\\Ocelot-Demo-WebApi\\CatalogApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
