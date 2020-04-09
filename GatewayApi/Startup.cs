@@ -9,12 +9,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Ocelot.Middleware;
 using Ocelot.DependencyInjection;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Microsoft.Extensions.Logging;
+using NLog.Extensions.Logging;
 
 namespace GatewayApi
 {
@@ -60,7 +61,7 @@ namespace GatewayApi
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public async void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public async void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
@@ -79,6 +80,10 @@ namespace GatewayApi
             {
                 endpoints.MapControllers();
             });
+
+            //nlog logging  
+            loggerFactory.AddNLog();
+            loggerFactory.ConfigureNLog("nlog.config");
 
             await app.UseOcelot();
         }

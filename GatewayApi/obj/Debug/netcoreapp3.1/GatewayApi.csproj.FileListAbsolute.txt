@@ -62,11 +62,15 @@ E:\Projects\Ocelot-Demo-WebApi\GatewayApi\bin\Debug\netcoreapp3.1\System.Identit
 E:\Projects\Ocelot-Demo-WebApi\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.csprojAssemblyReference.cache
 E:\Projects\Ocelot-Demo-WebApi\GatewayApi\obj\Debug\netcoreapp3.1\staticwebassets\GatewayApi.StaticWebAssets.Manifest.cache
 E:\Projects\Ocelot-Demo-WebApi\GatewayApi\obj\Debug\netcoreapp3.1\staticwebassets\GatewayApi.StaticWebAssets.xml
-E:\Projects\Ocelot-Demo-WebApi\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.MvcApplicationPartsAssemblyInfo.cs
-E:\Projects\Ocelot-Demo-WebApi\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.MvcApplicationPartsAssemblyInfo.cache
 E:\Projects\Ocelot-Demo-WebApi\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.AssemblyInfoInputs.cache
 E:\Projects\Ocelot-Demo-WebApi\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.AssemblyInfo.cs
 E:\Projects\Ocelot-Demo-WebApi\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.RazorTargetAssemblyInfo.cache
 E:\Projects\Ocelot-Demo-WebApi\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.csproj.CopyComplete
 E:\Projects\Ocelot-Demo-WebApi\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.dll
 E:\Projects\Ocelot-Demo-WebApi\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.pdb
+E:\Projects\Ocelot-Demo-WebApi\GatewayApi\bin\Debug\netcoreapp3.1\NLog.dll
+E:\Projects\Ocelot-Demo-WebApi\GatewayApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+E:\Projects\Ocelot-Demo-WebApi\GatewayApi\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+E:\Projects\Ocelot-Demo-WebApi\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.MvcApplicationPartsAssemblyInfo.cs
+E:\Projects\Ocelot-Demo-WebApi\GatewayApi\obj\Debug\netcoreapp3.1\GatewayApi.MvcApplicationPartsAssemblyInfo.cache
+E:\Projects\Ocelot-Demo-WebApi\GatewayApi\bin\Debug\netcoreapp3.1\nlog.config
