@@ -1,5 +1,5 @@
 {
-  "FilePath": "e:\\Projects\\Ocelot-Demo-WebApi\\GatewayApi\\GatewayApi.csproj",
+  "FilePath": "e:\\Projects\\Ocelot-Demo-WebApi\\AuthApi\\AuthApi.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20518,7 +20518,7 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "GatewayApi",
+  "RootNamespace": "AuthApi",
   "Documents": [],
   "SerializationFormat": "0.2"
 }

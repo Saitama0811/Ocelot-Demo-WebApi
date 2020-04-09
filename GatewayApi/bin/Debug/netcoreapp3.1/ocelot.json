@@ -1,48 +1,74 @@
 {
-    "ReRoutes": [
-      {
-        "DownstreamPathTemplate": "/api/{catchAll}",
-        "DownstreamScheme": "http",
-        "DownstreamHostAndPorts": [
-          {
-            "Host": "localhost",
-            "Port": 7001
-          }
-        ],
-        "UpstreamPathTemplate": "/catalog-api/{catchAll}",
-        "AuthenticationOptions": {
-          "AuthenticationProviderKey": "TestKey",
-          "AllowedScopes": []
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7001
         }
+      ],
+      "UpstreamPathTemplate": "/catalog-api/{catchAll}",
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 5,
+        "Limit": 1
       },
-      {
-        "DownstreamPathTemplate": "/api/{catchAll}",
-        "DownstreamScheme": "http",
-        "DownstreamHostAndPorts": [
-          {
-            "Host": "localhost",
-            "Port": 7002
-          }
-        ],
-        "UpstreamPathTemplate": "/orders-api/{catchAll}",
-        "AuthenticationOptions": {
-          "AuthenticationProviderKey": "TestKey",
-          "AllowedScopes": []
-        }
-      },
-      {
-        "DownstreamPathTemplate": "/api/{catchAll}",
-        "DownstreamScheme": "http",
-        "DownstreamHostAndPorts": [
-          {
-            "Host": "localhost",
-            "Port": 7003
-          }
-        ],
-        "UpstreamPathTemplate": "/auth-api/{catchAll}"
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
       }
-    ],
-    "GlobalConfiguration": {
-        "BaseUrl": "https://localhost:7000"
+    },
+    {
+      "DownstreamPathTemplate": "/api/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7002
+        }
+      ],
+      "UpstreamPathTemplate": "/orders-api/{catchAll}",
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 5,
+        "Limit": 1
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7003
+        }
+      ],
+      "UpstreamPathTemplate": "/auth-api/{catchAll}",
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 5,
+        "Limit": 1
+      }
     }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7000",
+    "RateLimitOptions": {
+      "DisableRateLimitHeaders": false,
+      "QuotaExceededMessage": "Limit Exceeded!!",
+      "HttpStatusCode": 999
+    }
+  }
 }
