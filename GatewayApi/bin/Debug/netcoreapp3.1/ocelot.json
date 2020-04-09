@@ -1,5 +1,6 @@
 {
   "ReRoutes": [
+    // For CatalogApi
     {
       "DownstreamPathTemplate": "/api/{catchAll}",
       "DownstreamScheme": "http",
@@ -9,6 +10,9 @@
           "Port": 7001
         }
       ],
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
       "UpstreamPathTemplate": "/catalog-api/{catchAll}",
       "RateLimitOptions": {
         "ClientWhitelist": [],
@@ -22,6 +26,7 @@
         "AllowedScopes": []
       }
     },
+    // For OrdersApi
     {
       "DownstreamPathTemplate": "/api/{catchAll}",
       "DownstreamScheme": "http",
@@ -31,6 +36,9 @@
           "Port": 7002
         }
       ],
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
       "UpstreamPathTemplate": "/orders-api/{catchAll}",
       "RateLimitOptions": {
         "ClientWhitelist": [],
@@ -44,6 +52,7 @@
         "AllowedScopes": []
       }
     },
+    // For AuthApi
     {
       "DownstreamPathTemplate": "/api/{catchAll}",
       "DownstreamScheme": "http",
@@ -53,6 +62,9 @@
           "Port": 7003
         }
       ],
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
       "UpstreamPathTemplate": "/auth-api/{catchAll}",
       "RateLimitOptions": {
         "ClientWhitelist": [],
@@ -64,7 +76,7 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:7000",
+    "BaseUrl": "http://localhost:7000",
     "RateLimitOptions": {
       "DisableRateLimitHeaders": false,
       "QuotaExceededMessage": "Limit Exceeded!!",
